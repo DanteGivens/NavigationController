@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5518E9424DB305B001AC1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518E9324DB305B001AC1E5 /* AppDelegate.swift */; };
+		B5518E9624DB305B001AC1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518E9524DB305B001AC1E5 /* SceneDelegate.swift */; };
+		B5518E9824DB305B001AC1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518E9724DB305B001AC1E5 /* ViewController.swift */; };
+		B5518E9B24DB305B001AC1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5518E9924DB305B001AC1E5 /* Main.storyboard */; };
+		B5518E9D24DB305C001AC1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5518E9C24DB305C001AC1E5 /* Assets.xcassets */; };
+		B5518EA024DB305C001AC1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5518E9E24DB305C001AC1E5 /* LaunchScreen.storyboard */; };
+		B5518EAB24DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518EAA24DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.swift */; };
+		B5518EB624DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518EB524DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.swift */; };
+		B5518EC624DB3DAE001AC1E5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518EC524DB3DAE001AC1E5 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5518EA724DB305C001AC1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5518E8824DB305B001AC1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5518E8F24DB305B001AC1E5;
+			remoteInfo = Dante_G_NavigationControllerExcercise;
+		};
+		B5518EB224DB305C001AC1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5518E8824DB305B001AC1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5518E8F24DB305B001AC1E5;
+			remoteInfo = Dante_G_NavigationControllerExcercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5518E9024DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dante_G_NavigationControllerExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518E9324DB305B001AC1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5518E9524DB305B001AC1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5518E9724DB305B001AC1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5518E9A24DB305B001AC1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5518E9C24DB305C001AC1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5518E9F24DB305C001AC1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5518EA124DB305C001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5518EA624DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_NavigationControllerExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518EAA24DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_NavigationControllerExcerciseTests.swift; sourceTree = "<group>"; };
+		B5518EAC24DB305C001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5518EB124DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_NavigationControllerExcerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518EB524DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_NavigationControllerExcerciseUITests.swift; sourceTree = "<group>"; };
+		B5518EB724DB305C001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5518EC524DB3DAE001AC1E5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5518E8D24DB305B001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EA324DB305C001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EAE24DB305C001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5518E8724DB305B001AC1E5 = {
+			isa = PBXGroup;
+			children = (
+				B5518EC524DB3DAE001AC1E5 /* SecondViewController.swift */,
+				B5518E9224DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */,
+				B5518EA924DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests */,
+				B5518EB424DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests */,
+				B5518E9124DB305B001AC1E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5518E9124DB305B001AC1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5518E9024DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise.app */,
+				B5518EA624DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.xctest */,
+				B5518EB124DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5518E9224DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */ = {
+			isa = PBXGroup;
+			children = (
+				B5518E9324DB305B001AC1E5 /* AppDelegate.swift */,
+				B5518E9524DB305B001AC1E5 /* SceneDelegate.swift */,
+				B5518E9724DB305B001AC1E5 /* ViewController.swift */,
+				B5518E9924DB305B001AC1E5 /* Main.storyboard */,
+				B5518E9C24DB305C001AC1E5 /* Assets.xcassets */,
+				B5518E9E24DB305C001AC1E5 /* LaunchScreen.storyboard */,
+				B5518EA124DB305C001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_NavigationControllerExcercise;
+			sourceTree = "<group>";
+		};
+		B5518EA924DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5518EAA24DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.swift */,
+				B5518EAC24DB305C001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_NavigationControllerExcerciseTests;
+			sourceTree = "<group>";
+		};
+		B5518EB424DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5518EB524DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.swift */,
+				B5518EB724DB305C001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_NavigationControllerExcerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5518E8F24DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518EBA24DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcercise" */;
+			buildPhases = (
+				B5518E8C24DB305B001AC1E5 /* Sources */,
+				B5518E8D24DB305B001AC1E5 /* Frameworks */,
+				B5518E8E24DB305B001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dante_G_NavigationControllerExcercise;
+			productName = Dante_G_NavigationControllerExcercise;
+			productReference = B5518E9024DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5518EA524DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518EBD24DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcerciseTests" */;
+			buildPhases = (
+				B5518EA224DB305C001AC1E5 /* Sources */,
+				B5518EA324DB305C001AC1E5 /* Frameworks */,
+				B5518EA424DB305C001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5518EA824DB305C001AC1E5 /* PBXTargetDependency */,
+			);
+			name = Dante_G_NavigationControllerExcerciseTests;
+			productName = Dante_G_NavigationControllerExcerciseTests;
+			productReference = B5518EA624DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5518EB024DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518EC024DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcerciseUITests" */;
+			buildPhases = (
+				B5518EAD24DB305C001AC1E5 /* Sources */,
+				B5518EAE24DB305C001AC1E5 /* Frameworks */,
+				B5518EAF24DB305C001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5518EB324DB305C001AC1E5 /* PBXTargetDependency */,
+			);
+			name = Dante_G_NavigationControllerExcerciseUITests;
+			productName = Dante_G_NavigationControllerExcerciseUITests;
+			productReference = B5518EB124DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5518E8824DB305B001AC1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dante Givens";
+				TargetAttributes = {
+					B5518E8F24DB305B001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B5518EA524DB305C001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B5518E8F24DB305B001AC1E5;
+					};
+					B5518EB024DB305C001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B5518E8F24DB305B001AC1E5;
+					};
+				};
+			};
+			buildConfigurationList = B5518E8B24DB305B001AC1E5 /* Build configuration list for PBXProject "Dante_G_NavigationControllerExcercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5518E8724DB305B001AC1E5;
+			productRefGroup = B5518E9124DB305B001AC1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5518E8F24DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */,
+				B5518EA524DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests */,
+				B5518EB024DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5518E8E24DB305B001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EA024DB305C001AC1E5 /* LaunchScreen.storyboard in Resources */,
+				B5518E9D24DB305C001AC1E5 /* Assets.xcassets in Resources */,
+				B5518E9B24DB305B001AC1E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EA424DB305C001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EAF24DB305C001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5518E8C24DB305B001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EC624DB3DAE001AC1E5 /* SecondViewController.swift in Sources */,
+				B5518E9824DB305B001AC1E5 /* ViewController.swift in Sources */,
+				B5518E9424DB305B001AC1E5 /* AppDelegate.swift in Sources */,
+				B5518E9624DB305B001AC1E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EA224DB305C001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EAB24DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EAD24DB305C001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EB624DB305C001AC1E5 /* Dante_G_NavigationControllerExcerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5518EA824DB305C001AC1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5518E8F24DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */;
+			targetProxy = B5518EA724DB305C001AC1E5 /* PBXContainerItemProxy */;
+		};
+		B5518EB324DB305C001AC1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5518E8F24DB305B001AC1E5 /* Dante_G_NavigationControllerExcercise */;
+			targetProxy = B5518EB224DB305C001AC1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5518E9924DB305B001AC1E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5518E9A24DB305B001AC1E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5518E9E24DB305C001AC1E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5518E9F24DB305C001AC1E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5518EB824DB305C001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5518EB924DB305C001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5518EBB24DB305C001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5518EBC24DB305C001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5518EBE24DB305C001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_NavigationControllerExcercise.app/Dante_G_NavigationControllerExcercise";
+			};
+			name = Debug;
+		};
+		B5518EBF24DB305C001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_NavigationControllerExcercise.app/Dante_G_NavigationControllerExcercise";
+			};
+			name = Release;
+		};
+		B5518EC124DB305C001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_NavigationControllerExcercise;
+			};
+			name = Debug;
+		};
+		B5518EC224DB305C001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_NavigationControllerExcerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-NavigationControllerExcerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_NavigationControllerExcercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5518E8B24DB305B001AC1E5 /* Build configuration list for PBXProject "Dante_G_NavigationControllerExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EB824DB305C001AC1E5 /* Debug */,
+				B5518EB924DB305C001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518EBA24DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EBB24DB305C001AC1E5 /* Debug */,
+				B5518EBC24DB305C001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518EBD24DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EBE24DB305C001AC1E5 /* Debug */,
+				B5518EBF24DB305C001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518EC024DB305C001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_NavigationControllerExcerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EC124DB305C001AC1E5 /* Debug */,
+				B5518EC224DB305C001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5518E8824DB305B001AC1E5 /* Project object */;
+}
